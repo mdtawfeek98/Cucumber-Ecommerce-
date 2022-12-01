@@ -1,0 +1,2227 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-28T04:38:34.288Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10686000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC_One Verify that when user clicks add-to-cart button is clickable or not",
+        "description": "",
+        "id": "add-to-cartpage;tc-one-verify-that-when-user-clicks-add-to-cart-button-is-clickable-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3067000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click on any product displayed on home page",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.click_on_any_product_displayed_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on add to cart for the product",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.click_on_add_to_cart_for_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The product should be added to cart btn is clickable successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.clickable()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:38:48.274Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23421000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "TC_two Verify that when user clicks on add to cart the product should be added to cart",
+        "description": "",
+        "id": "add-to-cartpage;tc-two-verify-that-when-user-clicks-on-add-to-cart-the-product-should-be-added-to-cart",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2664000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on any product displayed on home page",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.click_on_any_product_displayed_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on add to cart for the product",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.click_on_add_to_cart_for_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The product should be added to cart",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.the_product_should_be_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:39:14.526Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24306000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC_three Check on adding the new products into the cart and whether the count is increasing or not",
+        "description": "",
+        "id": "add-to-cartpage;tc-three-check-on-adding-the-new-products-into-the-cart-and-whether-the-count-is-increasing-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4682000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on any product displayed on home page",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.click_on_any_product_displayed_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on add to cart for the product",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.click_on_add_to_cart_for_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Again Click on add to cart for the product",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.addAgain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The product should be added to cart",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.the_product_should_be_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:39:43.814Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23302000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "TC_four Check after Adding one item to the cart and verify",
+        "description": "",
+        "id": "add-to-cartpage;tc-four-check-after-adding-one-item-to-the-cart-and-verify",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2444000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on any product displayed on home page",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.click_on_any_product_displayed_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on add to cart for the product",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.click_on_add_to_cart_for_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Again Click on add to cart for the product",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.addAgain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The product should be added to cart",
+            "match": {
+              "location": "com.forzo.stepdefinition.CartPage.the_product_should_be_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to CartPage",
+    "description": "",
+    "id": "add-to-cartpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/CartPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-28T04:40:09.928Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23891000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC_one Verify that Create an Account with valid details",
+        "description": "",
+        "id": "create-an-account-page;tc-one-verify-that-create-an-account-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10959000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the First Name \"Mohamed\" and Last Name \"Tawfeek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mohamed\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Tawfeek\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_first_name_and_last_name(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Email id \"tawfeek37988@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tawfeek37988@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 454000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the Password \"mohamedTawf90#\" and Confirm Password \"mohamedTawf90#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohamedTawf90#\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"mohamedTawf90#\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_password_and_confirm_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2881000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click to create an Account",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.click_the_create_an_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Created an account Successfully with valid details",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.created_an_account_successfully_with_valid_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:40:48.436Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20755000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC_Two Verify that Create an Account with Invalid details",
+        "description": "",
+        "id": "create-an-account-page;tc-two-verify-that-create-an-account-with-invalid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6411000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the First Name \"ram\" and Last Name \"Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ram\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_first_name_and_last_name(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the Email id \"tawfeek37988gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tawfeek37988gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the Password \"mohamedawf\" and Confirm Password \"mohamedawf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohamedawf\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"mohamedawf\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_password_and_confirm_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click to create an Account",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.click_the_create_an_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verified an Account was not created Successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.created_no_account_()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:41:16.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25783000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TC_three Verify that if a user tries to register an existing username,it shows error",
+        "description": "",
+        "id": "create-an-account-page;tc-three-verify-that-if-a-user-tries-to-register-an-existing-username-it-shows-error",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7729000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the First Name \"Mohamed\" and Last Name \"Tawfeek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mohamed\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Tawfeek\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_first_name_and_last_name(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 257000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter the Email id \"tawfeek37988@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tawfeek37988@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter the Password \"mohamedTawf90#\" and Confirm Password \"mohamedTawf90#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohamedTawf90#\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"mohamedTawf90#\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_password_and_confirm_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2558000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click to create an Account",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.click_the_create_an_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verified an Account was not created Successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.created_no_account_()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:41:53.452Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18965000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "TC_four Verify that the required fields is empty and submit the btn,it shows error",
+        "description": "",
+        "id": "create-an-account-page;tc-four-verify-that-the-required-fields-is-empty-and-submit-the-btn-it-shows-error",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9402000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter the First Name \" \" and Last Name \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 21
+                },
+                {
+                  "val": "\" \"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_first_name_and_last_name(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter the Email id \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 345000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter the Password \" \" and Confirm Password \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 19
+                },
+                {
+                  "val": "\" \"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_password_and_confirm_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click to create an Account",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.click_the_create_an_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verified an Account was not created Successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.created_no_account_()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:42:22.584Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18800000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "TC_five Check validation on numeric fields by entering special characters",
+        "description": "",
+        "id": "create-an-account-page;tc-five-check-validation-on-numeric-fields-by-entering-special-characters",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7971000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter the First Name \"#$ \" and Last Name \" @#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#$ \"",
+                  "offset": 21
+                },
+                {
+                  "val": "\" @#\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_first_name_and_last_name(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Enter the Email id \" $@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" $@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 380000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Enter the Password \"%^ \" and Confirm Password \" *\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"%^ \"",
+                  "offset": 19
+                },
+                {
+                  "val": "\" *\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.forzo.stepdefinition.CreateAccDef.enter_the_password_and_confirm_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click to create an Account",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.click_the_create_an_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verified an Account was not created Successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.CreateAccDef.created_no_account_()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create an Account Page",
+    "description": "",
+    "id": "create-an-account-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/CreateAccDef.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6856000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.browserLaunch1(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27397000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Load the Ecommerce url \"https://magento.softwaretestingboard.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://magento.softwaretestingboard.com/\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.url(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:42:50.339Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23283000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TC_One Verify that User able to Subscribe with valid email Id",
+        "description": "",
+        "id": "email-subscription;tc-one-verify-that-user-able-to-subscribe-with-valid-email-id",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the E-mail id \"tawfeek37988@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tawfeek37988@gmail.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.forzo.stepdefinition.EmailSub.mailId(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4603000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User able to Click the Subscribe btn",
+            "match": {
+              "location": "com.forzo.stepdefinition.EmailSub.subscribe_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 380000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Subscribed successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.EmailSub.subscribed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4889000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.browserLaunch1(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21163000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Load the Ecommerce url \"https://magento.softwaretestingboard.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://magento.softwaretestingboard.com/\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.url(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:43:52.986Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17126000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC_two Verify that User able to Subscribe with Invalid email Id",
+        "description": "",
+        "id": "email-subscription;tc-two-verify-that-user-able-to-subscribe-with-invalid-email-id",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the E-mail id \"#@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#@gmail.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.forzo.stepdefinition.EmailSub.mailId(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3389000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User able to Click the Subscribe btn",
+            "match": {
+              "location": "com.forzo.stepdefinition.EmailSub.subscribe_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Subscribed unsuccessfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.EmailSub.unsubscribed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2638000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.browserLaunch1(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19894000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Load the Ecommerce url \"https://magento.softwaretestingboard.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://magento.softwaretestingboard.com/\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.url(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:44:39.936Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11004000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TC_three Verify that User able to get a mail after subscribed",
+        "description": "",
+        "id": "email-subscription;tc-three-verify-that-user-able-to-get-a-mail-after-subscribed",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the E-mail id \"tawfeek37988@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tawfeek37988@gmail.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.forzo.stepdefinition.EmailSub.mailId(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3775000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User able to Click the Subscribe btn",
+            "match": {
+              "location": "com.forzo.stepdefinition.EmailSub.subscribe_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Subscribed and got a email successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.EmailSub.mail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3977000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.browserLaunch1(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22070000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Load the Ecommerce url \"https://magento.softwaretestingboard.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://magento.softwaretestingboard.com/\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.url(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:45:17.663Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10509000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "TC_four Click the subscribe btn without email id",
+        "description": "",
+        "id": "email-subscription;tc-four-click-the-subscribe-btn-without-email-id",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the E-mail id \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.forzo.stepdefinition.EmailSub.mailId(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4128000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User able to Click the Subscribe btn",
+            "match": {
+              "location": "com.forzo.stepdefinition.EmailSub.subscribe_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 534000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enable to click a button but throw a error",
+            "match": {
+              "location": "com.forzo.stepdefinition.EmailSub.error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Email Subscription",
+    "description": "",
+    "id": "email-subscription",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/EmailSub.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-28T04:45:59.044Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8896000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC_one Verify that user can be able to login by entering a valid credentials",
+        "description": "",
+        "id": "loginpage;tc-one-verify-that-user-can-be-able-to-login-by-entering-a-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1901000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the UserName",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.enter_the_user_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "md.tawfi98@gamil.com"
+                ]
+              },
+              {
+                "cells": [
+                  "tawfeek37988@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the Password  \"Halijarahman98#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Halijarahman98#\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3063000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click the login button",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verified the username and password",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:46:13.166Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22508000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC_two Verify that user cannot be able to login by entering a invalid credentials",
+        "description": "",
+        "id": "loginpage;tc-two-verify-that-user-cannot-be-able-to-login-by-entering-a-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3177000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the UserName \"tawfeek@gamil.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tawfeek@gamil.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.userName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the Password \"feeksha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"feeksha\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2693000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click the login button",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should not be able to click on login Successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.user_shouldn_t_be_able_to_click_on_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:46:41.820Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25087000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "TC_three Verify the validation message  get dispalyed, if user leave  the username or password  as blank",
+        "description": "",
+        "id": "loginpage;tc-three-verify-the-validation-message--get-dispalyed--if-user-leave--the-username-or-password--as-blank",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3080000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter the UserName \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.userName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the Password \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3630000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click the login button",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validation message  get dispalyed Successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.validation_message_get_dispalyed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:47:13.866Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22989000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "TC_four verify the validation message gets displayed, if the user  exceeds the character limit",
+        "description": "",
+        "id": "loginpage;tc-four-verify-the-validation-message-gets-displayed--if-the-user--exceeds-the-character-limit",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3682000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Enter the UserName \"tawfwwwwaewsl \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tawfwwwwaewsl \"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.userName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the Password \"sahtgeedbshwssswwws \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sahtgeedbshwssswwws \"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.forzo.stepdefinition.LoginDefinition.password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1987000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click the login button",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Validation message  get dispalyed Successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.validation_message_get_dispalyed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:47:42.756Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21447000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "TC_five Verify the Forgot Password able to clickable or not",
+        "description": "",
+        "id": "loginpage;tc-five-verify-the-forgot-password-able-to-clickable-or-not",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6542000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click the Login in btn",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.click_the_login_in_btn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4412000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click the forgot password button",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.click_the_forgot_password_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User able to click the Forgot Btn Successfully",
+            "match": {
+              "location": "com.forzo.stepdefinition.LoginDefinition.user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginPage",
+    "description": "",
+    "id": "loginpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/LoginPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-28T04:48:15.168Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18333000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC_one Verify that the search results should be as per the search query",
+        "description": "",
+        "id": "search-page-functionality;tc-one-verify-that-the-search-results-should-be-as-per-the-search-query",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5118000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter search text in search field and click on search icon \"short\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"short\"",
+                  "offset": 59
+                }
+              ],
+              "location": "com.forzo.stepdefinition.SearchDefinition.searchIcon(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search should be performed according to search text provided by user",
+            "match": {
+              "location": "com.forzo.stepdefinition.SearchDefinition.search_should_be_performed_according_to_search_text_provided_by_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:48:38.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 35869000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TC_two Verify that Verify that search field accepts numbers",
+        "description": "",
+        "id": "search-page-functionality;tc-two-verify-that-verify-that-search-field-accepts-numbers",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21841000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter search text in search field and click on search icon \"212\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"212\"",
+                  "offset": 59
+                }
+              ],
+              "location": "com.forzo.stepdefinition.SearchDefinition.searchIcon(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search should be not performed according to search text provided by user",
+            "match": {
+              "location": "com.forzo.stepdefinition.SearchDefinition.search_should_not_performed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:49:36.362Z",
+        "before": [
+          {
+            "result": {
+              "duration": 70032000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC_three Verify that Verify that search field accepts symbol",
+        "description": "",
+        "id": "search-page-functionality;tc-three-verify-that-verify-that-search-field-accepts-symbol",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2274000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter search text in search field and click on search icon \"#$!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#$!\"",
+                  "offset": 59
+                }
+              ],
+              "location": "com.forzo.stepdefinition.SearchDefinition.searchIcon(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Search should be not performed according to search text provided by user",
+            "match": {
+              "location": "com.forzo.stepdefinition.SearchDefinition.search_should_not_performed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:50:48.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 41275000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC_four Verify that user should be able to search based on product brand name",
+        "description": "",
+        "id": "search-page-functionality;tc-four-verify-that-user-should-be-able-to-search-based-on-product-brand-name",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10687000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter search text in search field and click on search icon \"luma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"luma\"",
+                  "offset": 59
+                }
+              ],
+              "location": "com.forzo.stepdefinition.SearchDefinition.searchIcon(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Search should be performed according to search text provided by user",
+            "match": {
+              "location": "com.forzo.stepdefinition.SearchDefinition.search_should_be_performed_according_to_search_text_provided_by_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:51:40.687Z",
+        "before": [
+          {
+            "result": {
+              "duration": 32554000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "TC_five Verify that the History of search results displayed",
+        "description": "",
+        "id": "search-page-functionality;tc-five-verify-that-the-history-of-search-results-displayed",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter search text in search field \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.forzo.stepdefinition.SearchDefinition.enter_search_text_in_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click the search field",
+            "match": {
+              "location": "com.forzo.stepdefinition.SearchDefinition.entersSearch()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T04:52:13.531Z",
+        "before": [
+          {
+            "result": {
+              "duration": 32247000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "TC_six Verify that the Auto suggestions should be there",
+        "description": "",
+        "id": "search-page-functionality;tc-six-verify-that-the-auto-suggestions-should-be-there",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.forzo.stepdefinition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter search text in search field \"pants\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pants\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.forzo.stepdefinition.SearchDefinition.enter_search_text_in_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "AutoSuggestion should be be displayed",
+            "match": {
+              "location": "com.forzo.stepdefinition.SearchDefinition.autoSuggestion()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Page Functionality",
+    "description": "",
+    "id": "search-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Search.feature",
+    "tags": []
+  }
+]
